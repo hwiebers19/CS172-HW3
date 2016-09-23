@@ -6,11 +6,13 @@
 //  Copyright © 2016 Heidi Wiebers. All rights reserved.
 //
 
-#ifndef Function_hpp
-#define Function_hpp
+#ifndef Fan_hpp
+#define Fan_hpp
 
 #include <stdio.h>
 #include "Fan.hpp"
+int getValue();
+
 class Fan
 {
 public:
@@ -19,10 +21,46 @@ public:
     
     bool on();
     
+    /*Fan(){
+     speed=1;
+     on() = false;
+     radius=5;
+     }
+    */
+};
+
+/*class QuadraticEquation
+{
+public:
+    int a;
+    int b;
+    int c;
+    a(){
+        
+    }
+    b(){
+        
+    }
+    c(){
+        
+    }
+    
+};
+*/
+
+class EvenNumber
+{
+public:
+    int value;
+    
+    EvenNumber()
+    {
+        value=0;
+    }
+    
     
     
     
 };
 
-
-#endif /* Function_hpp */
+#endif /* Fan_hpp */

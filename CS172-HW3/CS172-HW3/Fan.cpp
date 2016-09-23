@@ -7,4 +7,25 @@
 //
 
 #include <stdio.h>
-#include "Function.hpp"
+#include "Fan.hpp"
+
+/*int getDiscriminent()
+{
+   return (b*b)-(4*a*c);
+}*/
+/*
+int getValue()
+{
+    return false;
+}
+
+int getNext()
+{
+    return EvenNumber;
+}
+
+int getPrevious()
+{
+    return EvenNumber;
+}
+*/
