@@ -37,56 +37,7 @@ public:
     
 };
 
-/*class QuadraticEquation
-{
-public:
-    int a;
-    int b;
-    int c;
-    a(){
-        
-    }
-    b(){
-        
-    }
-    c(){
-        
-    }
-    
-};
-*/
 
-class EvenNumber
-{
-public:
-    int value;
-    
-    EvenNumber()
-    {
-        value=0;
-    }
-    
-    
-    
-    
-};
-
-//10.10
-
-class Count
-{
-public:
-    int count;
-    
-    Count(int c)
-    {
-        count =c;
-    }
-    Count()
-    {
-        count=0;
-    }
-};
 
 
 

@@ -48,36 +48,13 @@ void Fan::setRadius(double radius)
     Radius = radius;
 }
 
-/*int getDiscriminent()
-{
-   return (b*b)-(4*a*c);
-}*/
-/*
-int getValue()
-{
-    return false;
-}
 
-int getNext()
-{
-    return EvenNumber;
-}
 
-int getPrevious()
-{
-    return EvenNumber;
-}
-*/
 
-//10.10
-/*
-void increment(Count c, int times)
-{
-    c.count++;
-    times++;
-}
 
-*/
+
+
+
 
 
 

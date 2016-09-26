@@ -12,6 +12,7 @@
 #include <string>
 #include <ctime>
 #include "Fan.hpp"
+#include "QuadraticEquation.hpp"
 using namespace std;
 
 int main() {
@@ -36,6 +37,28 @@ int main() {
     cout << "Fan 2 on? " << boolalpha <<F2.isOn() <<endl;
     
     //EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations
+    int a=0;
+    int b=0;
+    int c=0;
+    
+    cout << "Enter a value for a: " ;
+    cin >> a;
+    cout << "Enter a value for b: " ;
+    cin >> b;
+    cout << "Enter a value for c: " ;
+    cin >> c;
+    
+    QuadraticEquation QE(a, b, c);
+    
+    if(QE.getDiscrimenant()<1)
+    {
+        
+    }
+    
+    else
+    {
+        
+    }
     
     //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
     

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		A6B12EB11D95D43200048F08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B12EB01D95D43200048F08 /* main.cpp */; };
 		A6B12EBC1D95D93A00048F08 /* Fan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B12EBB1D95D93A00048F08 /* Fan.cpp */; };
+		A6B12EBF1D99D82200048F08 /* QuadraticEquation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B12EBD1D99D82200048F08 /* QuadraticEquation.cpp */; };
+		A6B12EC21D99E06A00048F08 /* EvenNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B12EC01D99E06A00048F08 /* EvenNumber.cpp */; };
+		A6B12EC51D99E0CD00048F08 /* SortCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B12EC31D99E0CD00048F08 /* SortCharacters.cpp */; };
+		A6B12EC81D99E0E700048F08 /* MyInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B12EC61D99E0E700048F08 /* MyInteger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,14 @@
 		A6B12EB01D95D43200048F08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6B12EB91D95D5D500048F08 /* Fan.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Fan.hpp; sourceTree = "<group>"; };
 		A6B12EBB1D95D93A00048F08 /* Fan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fan.cpp; sourceTree = "<group>"; };
+		A6B12EBD1D99D82200048F08 /* QuadraticEquation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadraticEquation.cpp; sourceTree = "<group>"; };
+		A6B12EBE1D99D82200048F08 /* QuadraticEquation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QuadraticEquation.hpp; sourceTree = "<group>"; };
+		A6B12EC01D99E06A00048F08 /* EvenNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvenNumber.cpp; sourceTree = "<group>"; };
+		A6B12EC11D99E06A00048F08 /* EvenNumber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EvenNumber.hpp; sourceTree = "<group>"; };
+		A6B12EC31D99E0CD00048F08 /* SortCharacters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortCharacters.cpp; sourceTree = "<group>"; };
+		A6B12EC41D99E0CD00048F08 /* SortCharacters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SortCharacters.hpp; sourceTree = "<group>"; };
+		A6B12EC61D99E0E700048F08 /* MyInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyInteger.cpp; sourceTree = "<group>"; };
+		A6B12EC71D99E0E700048F08 /* MyInteger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyInteger.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,14 @@
 				A6B12EB01D95D43200048F08 /* main.cpp */,
 				A6B12EB91D95D5D500048F08 /* Fan.hpp */,
 				A6B12EBB1D95D93A00048F08 /* Fan.cpp */,
+				A6B12EBD1D99D82200048F08 /* QuadraticEquation.cpp */,
+				A6B12EBE1D99D82200048F08 /* QuadraticEquation.hpp */,
+				A6B12EC01D99E06A00048F08 /* EvenNumber.cpp */,
+				A6B12EC11D99E06A00048F08 /* EvenNumber.hpp */,
+				A6B12EC31D99E0CD00048F08 /* SortCharacters.cpp */,
+				A6B12EC41D99E0CD00048F08 /* SortCharacters.hpp */,
+				A6B12EC61D99E0E700048F08 /* MyInteger.cpp */,
+				A6B12EC71D99E0E700048F08 /* MyInteger.hpp */,
 			);
 			path = "CS172-HW3";
 			sourceTree = "<group>";
@@ -123,7 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B12EC81D99E0E700048F08 /* MyInteger.cpp in Sources */,
+				A6B12EC51D99E0CD00048F08 /* SortCharacters.cpp in Sources */,
 				A6B12EB11D95D43200048F08 /* main.cpp in Sources */,
+				A6B12EBF1D99D82200048F08 /* QuadraticEquation.cpp in Sources */,
+				A6B12EC21D99E06A00048F08 /* EvenNumber.cpp in Sources */,
 				A6B12EBC1D95D93A00048F08 /* Fan.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +267,7 @@
 				A6B12EB61D95D43200048F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
