@@ -50,14 +50,18 @@ int main() {
     
     QuadraticEquation QE(a, b, c);
     
-    if(QE.getDiscrimenant()<1)
+    if(QE.getDiscrimenant()>0)
     {
-        
+        cout << QE.getRoot1()<<endl;
+        cout << QE.getRoot2()<<endl;
     }
-    
+    else if(QE.getDiscrimenant()==0)
+    {
+        cout << QE.getRoot1();
+    }
     else
     {
-        
+        cout << "The equation has no real roots "<<endl;
     }
     
     //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
