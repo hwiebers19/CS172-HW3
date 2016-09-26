@@ -10,23 +10,31 @@
 #define Fan_hpp
 
 #include <stdio.h>
+#include <string>
+#include <iostream>
 #include "Fan.hpp"
 int getValue();
+void increment();
 
 class Fan
 {
+private:
+    int Speed;
+    double Radius;
+    
+    bool On;
+    
 public:
-    int speed;
-    double radius;
     
-    bool on();
+    Fan();
     
-    /*Fan(){
-     speed=1;
-     on() = false;
-     radius=5;
-     }
-    */
+    int getSpeed();
+    void setSpeed(int speed);
+    bool isOn();
+    void setOn(bool);
+    double getRadius();
+    void setRadius(double radius);
+    
 };
 
 /*class QuadraticEquation
@@ -62,5 +70,30 @@ public:
     
     
 };
+
+//10.10
+
+class Count
+{
+public:
+    int count;
+    
+    Count(int c)
+    {
+        count =c;
+    }
+    Count()
+    {
+        count=0;
+    }
+};
+
+
+
+
+
+
+
+
 
 #endif /* Fan_hpp */
