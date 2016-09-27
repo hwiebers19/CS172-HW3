@@ -79,7 +79,7 @@ int main() {
         cout << "Your value is " <<value <<endl;
     }
     
-    EvenNumber EN1;
+    EvenNumber EN1(value);
     
     cout << "The next even number is " << EN1.getNext() << endl;
     cout << "The previous even number is " << EN1.getPrevious() <<endl;

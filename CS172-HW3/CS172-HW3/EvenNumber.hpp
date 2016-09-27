@@ -17,7 +17,7 @@ private:
     int value;
     
 public:
-    EvenNumber();
+    EvenNumber(int val);
     int getValue();
     int getNext();
     int getPrevious();

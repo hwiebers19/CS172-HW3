@@ -7,9 +7,9 @@
 //
 
 #include "EvenNumber.hpp"
-EvenNumber::EvenNumber()
+EvenNumber::EvenNumber(int val)
 {
-    value=0;
+    value=val;
 }
 int EvenNumber::getValue()
 {
