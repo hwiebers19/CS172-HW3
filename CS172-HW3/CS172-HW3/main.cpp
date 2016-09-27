@@ -13,6 +13,9 @@
 #include <ctime>
 #include "Fan.hpp"
 #include "QuadraticEquation.hpp"
+#include "EvenNumber.hpp"
+#include "SortCharacters.hpp"
+#include "MyInteger.hpp"
 using namespace std;
 
 int main() {
@@ -71,9 +74,16 @@ int main() {
     cin >> value;
     while(value%2==1)
     {
-    cout << "The number you evetered is not even, please try again: ";
+    cout << "The number you entered is not even, please try again: ";
     cin >> value;
+        cout << "Your value is " <<value <<endl;
     }
+    
+    EvenNumber EN1;
+    
+    cout << "The next even number is " << EN1.getNext() << endl;
+    cout << "The previous even number is " << EN1.getPrevious() <<endl;
+    
     
     //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
         
