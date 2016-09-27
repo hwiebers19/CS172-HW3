@@ -7,19 +7,21 @@
 //
 
 #include "EvenNumber.hpp"
-/*
-int getValue()
+EvenNumber::EvenNumber()
 {
-    return false;
+    value=0;
+}
+int EvenNumber::getValue()
+{
+       return value;
 }
 
-int getNext()
+int EvenNumber::getNext()
 {
-    return EvenNumber;
+    return value+2;
 }
 
-int getPrevious()
+int EvenNumber::getPrevious()
 {
-    return EvenNumber;
+    return value-2;
 }
-*/

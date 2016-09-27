@@ -66,43 +66,17 @@ int main() {
     
     //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
     
+    int value=0;
+    cout << "Enter an even number: ";
+    cin >> value;
+    while(value%2==1)
+    {
+    cout << "The number you evetered is not even, please try again: ";
+    cin >> value;
+    }
+    
     //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
-    /*
-    string s1("I have a dream");
-    string s2("Computer Programming");
-    
-    //1
-    s1[0];
-    
-    //2
-    s1=s2;
-    
-    //3
-    s1 = "C++" + s2;
-    
-    //4
-    s2 += "C++";
-    
-    //5
-    s1 > s2;
-    
-    //6
-    s1 >= s2;
-    
-    //7
-    s1 < s2;
-    
-    //8
-    s1 <= s2;
-    
-    //9
-    s1 == s2;
-    
-    //10
-    s1 != s2;
-    
-    */
-    
+        
     //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
     /*
     Count myCount;

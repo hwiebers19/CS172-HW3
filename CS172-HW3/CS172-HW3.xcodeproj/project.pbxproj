@@ -73,8 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				A6B12EB01D95D43200048F08 /* main.cpp */,
-				A6B12EB91D95D5D500048F08 /* Fan.hpp */,
 				A6B12EBB1D95D93A00048F08 /* Fan.cpp */,
+				A6B12EB91D95D5D500048F08 /* Fan.hpp */,
 				A6B12EBD1D99D82200048F08 /* QuadraticEquation.cpp */,
 				A6B12EBE1D99D82200048F08 /* QuadraticEquation.hpp */,
 				A6B12EC01D99E06A00048F08 /* EvenNumber.cpp */,

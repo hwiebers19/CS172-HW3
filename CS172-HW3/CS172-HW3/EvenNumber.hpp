@@ -13,15 +13,14 @@
 
 class EvenNumber
 {
-public:
+private:
     int value;
     
-    EvenNumber()
-    {
-        value=0;
-    }
-    
-    
+public:
+    EvenNumber();
+    int getValue();
+    int getNext();
+    int getPrevious();
     
     
 };
