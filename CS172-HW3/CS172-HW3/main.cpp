@@ -86,21 +86,18 @@ int main() {
     
     
     //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
+    
+    int string;
+    
+    cout << "Enter a string ";
+    cin >> string;
+    cout << "The sorted string is: "<< string <<endl;
         
     //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
-    /*
-    Count myCount;
-    int times=0;
     
-    for(int i=0; i< 100; i++)
-    {
-        increment(myCount, times);
-    }
+    MyInteger MI1(value);
     
-    cout << "myCount.count is" << myCount.count;
-    cout << " times is " << times;
     
-    */
     
     
     return 0;

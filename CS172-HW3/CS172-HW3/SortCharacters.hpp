@@ -10,5 +10,11 @@
 #define SortCharacters_hpp
 
 #include <stdio.h>
+using namespace std;
 
+class sort
+{
+public:
+    string sort::sort(string& s);
+};
 #endif /* SortCharacters_hpp */

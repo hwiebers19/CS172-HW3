@@ -10,21 +10,36 @@
 #define MyInteger_hpp
 
 #include <stdio.h>
+#include <string>
+using namespace std;
 //10.10
 
-class Count
+class MyInteger
 {
-public:
-    int count;
+private:
+    int value;
     
-    Count(int c)
-    {
-        count =c;
-    }
-    Count()
-    {
-        count=0;
-    }
+public:
+    MyInteger(int val);
+    const int isEven();
+    const int isOdd();
+    const int isPrime();
+    
+    int isEven(int);
+    int isOdd(int);
+    int isPrime(int);
+    
+    int isEven(const MyInteger&);
+    int isOdd(const MyInteger&);
+    int isPrime(const MyInteger&);
+    
+    const int equals(int);
+    const int equals(const MyInteger&);
+    
+    int parseInt(const string&);
+    
+    
+    
 };
 
 
