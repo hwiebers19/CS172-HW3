@@ -21,22 +21,23 @@ private:
     
 public:
     MyInteger(int val);
-    const int isEven();
-    const int isOdd();
-    const int isPrime();
+    int getValue() const;
+    int isEven() const;
+    int isOdd() const;
+    int isPrime() const;
     
-    int isEven(int);
-    int isOdd(int);
-    int isPrime(int);
+    static bool isEven(int);
+    static bool isOdd(int);
+    static bool isPrime(int);
     
-    int isEven(const MyInteger&);
-    int isOdd(const MyInteger&);
-    int isPrime(const MyInteger&);
+    static int isEven(const MyInteger&);
+    static int isOdd(const MyInteger&);
+    static int isPrime(const MyInteger&);
     
-    const int equals(int);
-    const int equals(const MyInteger&);
+    int equals(int) const;
+    int equals(const MyInteger&) const;
     
-    int parseInt(const string&);
+    static int parseInt(const string&);
     
     
     

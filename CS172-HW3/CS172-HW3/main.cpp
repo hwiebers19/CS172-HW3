@@ -87,11 +87,12 @@ int main() {
     
     //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
     
-    int string;
+    string string;
     
     cout << "Enter a string ";
     cin >> string;
-    cout << "The sorted string is: "<< string <<endl;
+    string= sort(string);
+    cout << "The sorted string is: " << string <<endl;
         
     //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
     

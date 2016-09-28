@@ -7,9 +7,26 @@
 //
 
 #include "SortCharacters.hpp"
+#include <string>
 
-string sort::sort(string& s)
+string sort(string& s)
 {
-    return
+    string stur;
+    stur=s;
+    for(int i=0; i<stur.length(); i++)
+    {
+        int smallest=i;
+        for(int j=i+1; j<stur.length(); j++)
+        {
+            if(stur[j]<stur[smallest])
+            {
+                smallest=j;
+            }
+        }
+        char temp=stur[smallest];
+        stur[smallest]=stur[i];
+        stur[i]=temp;
+    }
+    
+    return stur;
 }
-   
