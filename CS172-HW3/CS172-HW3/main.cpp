@@ -98,7 +98,12 @@ int main() {
     
     MyInteger MI1(value);
     
-    
+    cout << "Enter a value ";
+    cin >> value;
+    cout << boolalpha;
+    cout << "The value is prime: " << MI1.isPrime()<< endl;
+    cout << "The value is odd: " << MI1.isOdd()<<endl;
+    cout << "The value is even: "<< MI1.isEven()<<endl;
     
     
     return 0;

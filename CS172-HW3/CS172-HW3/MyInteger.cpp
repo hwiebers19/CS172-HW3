@@ -8,6 +8,7 @@
 
 #include "MyInteger.hpp"
 #include <string>
+#include <iostream>
 using namespace std;
 //10.10
 MyInteger::MyInteger(int val)
@@ -20,17 +21,17 @@ int MyInteger::getValue() const
     return value;
 }
 
-int MyInteger::isEven() const
+bool MyInteger::isEven() const
 {
     return MyInteger::isEven(value);
 }
 
-int MyInteger::isOdd() const
+bool MyInteger::isOdd() const
 {
     return MyInteger::isOdd(value);
 }
 
-int MyInteger::isPrime() const
+bool MyInteger::isPrime() const
 {
     return MyInteger::isPrime(value);
 }
@@ -57,27 +58,27 @@ bool MyInteger::isPrime(int i)
     return isPrime;
 }
 
-int MyInteger::isEven(const MyInteger& i)
+bool MyInteger::isEven(const MyInteger& i)
 {
     return i.isEven();
 }
 
-int MyInteger::isOdd(const MyInteger& i)
+bool MyInteger::isOdd(const MyInteger& i)
 {
     return i.isOdd();
 }
 
-int MyInteger::isPrime(const MyInteger& i)
+bool MyInteger::isPrime(const MyInteger& i)
 {
     return i.isPrime();
 }
 
-int MyInteger::equals(int i) const
+bool MyInteger::equals(int i) const
 {
     return value==i;
 }
 
-int MyInteger::equals(const MyInteger& i) const
+bool MyInteger::equals(const MyInteger& i) const
 {
     return i.equals(value);
 }
