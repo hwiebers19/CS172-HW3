@@ -13,6 +13,7 @@ string sort(string& s)
 {
     string stur;
     stur=s;
+    // for loop to sort the string 
     for(int i=0; i<stur.length(); i++)
     {
         int smallest=i;
@@ -23,6 +24,7 @@ string sort(string& s)
                 smallest=j;
             }
         }
+        // replace each letter
         char temp=stur[smallest];
         stur[smallest]=stur[i];
         stur[i]=temp;

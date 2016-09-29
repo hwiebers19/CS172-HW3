@@ -10,7 +10,7 @@
 #define QuadraticEquation_hpp
 
 #include <stdio.h>
-
+// quadratic equation class and the promises for our program
 class QuadraticEquation
 {
 private:

@@ -10,7 +10,7 @@
 #include <string>
 #include <iostream>
 #include "Fan.hpp"
-
+//inititalize
 Fan::Fan(){
     Speed=1;
     On = false;
@@ -22,12 +22,13 @@ int Fan::getSpeed()
 {
     return Speed;
 }
-
+//tell the speed
 void Fan::setSpeed(int speed)
 {
     Speed = speed;
 }
 
+// tell if the fan is on
 bool Fan:: isOn()
 {
     return On;
@@ -38,6 +39,7 @@ void Fan::setOn(bool trueOrFalse)
     On = trueOrFalse;
 }
 
+//tell the radius of fan
 double Fan::getRadius()
 {
     return Radius;

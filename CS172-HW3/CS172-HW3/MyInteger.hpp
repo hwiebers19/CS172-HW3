@@ -14,6 +14,7 @@
 using namespace std;
 //10.10
 
+// the my integer class and the promises for our program
 class MyInteger
 {
 private:

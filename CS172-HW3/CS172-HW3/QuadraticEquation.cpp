@@ -15,7 +15,7 @@ QuadraticEquation::QuadraticEquation(int a, int b, int c)
     mC=c;
 
 }
-
+// get values
 int QuadraticEquation::geta()
 {
     return mA;
@@ -33,6 +33,7 @@ int QuadraticEquation::getDiscrimenant()
 {
     return mB*mB-(4*mA*mC);
 }
+// get one root
 double QuadraticEquation::getRoot1()
 {
     if(getDiscrimenant()<0)
@@ -44,6 +45,7 @@ double QuadraticEquation::getRoot1()
         return (- mB +sqrt(getDiscrimenant()))/(2*mA);
     }
 }
+// get the other root
 double QuadraticEquation::getRoot2()
 {
     if(getDiscrimenant()<0)

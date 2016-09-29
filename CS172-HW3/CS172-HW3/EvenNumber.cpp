@@ -16,11 +16,13 @@ int EvenNumber::getValue()
        return value;
 }
 
+// tell the next even number
 int EvenNumber::getNext()
 {
     return value+2;
 }
 
+// the the previous even number
 int EvenNumber::getPrevious()
 {
     return value-2;

@@ -10,7 +10,7 @@
 #define EvenNumber_hpp
 
 #include <stdio.h>
-
+// even number class and the promises for our program
 class EvenNumber
 {
 private:

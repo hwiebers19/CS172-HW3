@@ -35,15 +35,17 @@ bool MyInteger::isPrime() const
 {
     return MyInteger::isPrime(value);
 }
+// check if number is even
 bool MyInteger::isEven(int i)
 {
     return i%2==0;
 }
-
+// check if number is odd
 bool MyInteger::isOdd(int i)
 {
     return i%2==1;
 }
+// check if number is prime
 bool MyInteger::isPrime(int i)
 {
     bool isPrime=true;
@@ -58,6 +60,8 @@ bool MyInteger::isPrime(int i)
     return isPrime;
 }
 
+
+// constants which call each part of the class
 bool MyInteger::isEven(const MyInteger& i)
 {
     return i.isEven();

@@ -16,6 +16,7 @@
 int getValue();
 void increment();
 
+// fan class and the promises for our program 
 class Fan
 {
 private:
