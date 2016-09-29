@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <string>
 using namespace std;
+
 // the promise for our program
 string sort(string& s);
 
