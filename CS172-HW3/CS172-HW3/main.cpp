@@ -106,12 +106,11 @@ int main() {
         
     //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
     
-    MyInteger MI1(value);
-    
     // ask the user for a value and tell the user if it is prime, and even or odd
     cout << "Enter a value ";
     cin >> value;
     cout << boolalpha;
+    MyInteger MI1(value);
     cout << "The value is prime: " << MI1.isPrime()<< endl;
     cout << "The value is odd: " << MI1.isOdd()<<endl;
     cout << "The value is even: "<< MI1.isEven()<<endl;
